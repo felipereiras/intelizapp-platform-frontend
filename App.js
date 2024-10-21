@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = 'https://seu-app-backend.herokuapp.com';
+const API_URL = 'https://intelizap-0d3f72b38a9c.herokuapp.com/';
 
 function App() {
   const [qr, setQr] = useState('');
